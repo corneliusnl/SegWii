@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXFileReference section */
+		55DB94B70D8DFBDF00E2022D /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		55DB94B80D8E06E700E2022D /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		55F0372D0D8997BE00D86857 /* adc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adc.c; sourceTree = "<group>"; };
+		55F0372E0D8997BE00D86857 /* adc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adc.h; sourceTree = "<group>"; };
+		55F0372F0D8997BE00D86857 /* balance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = balance.c; sourceTree = "<group>"; };
+		55F037300D8997BE00D86857 /* balance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = balance.h; sourceTree = "<group>"; };
+		55F037310D8997BE00D86857 /* bluetooth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bluetooth.c; sourceTree = "<group>"; };
+		55F037320D8997BE00D86857 /* bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetooth.h; sourceTree = "<group>"; };
+		55F037330D8997BE00D86857 /* common.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		55F037340D8997BE00D86857 /* gyro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gyro.c; sourceTree = "<group>"; };
+		55F037350D8997BE00D86857 /* gyro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyro.h; sourceTree = "<group>"; };
+		55F037360D8997BE00D86857 /* i2c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = i2c.c; sourceTree = "<group>"; };
+		55F037370D8997BE00D86857 /* i2c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = i2c.h; sourceTree = "<group>"; };
+		55F037380D8997BE00D86857 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		55F037390D8997BE00D86857 /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		55F0373A0D8997BE00D86857 /* ioports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioports.h; sourceTree = "<group>"; };
+		55F0373B0D8997BE00D86857 /* isr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isr.c; sourceTree = "<group>"; };
+		55F0373C0D8997BE00D86857 /* isr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isr.h; sourceTree = "<group>"; };
+		55F0373D0D8997BE00D86857 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		55F0373E0D8997BE00D86857 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		55F0373F0D8997BE00D86857 /* motors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = motors.c; sourceTree = "<group>"; };
+		55F037400D8997BE00D86857 /* motors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motors.h; sourceTree = "<group>"; };
+		55F037410D8997BE00D86857 /* nunchuk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nunchuk.c; sourceTree = "<group>"; };
+		55F037420D8997BE00D86857 /* nunchuk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nunchuk.h; sourceTree = "<group>"; };
+		55F037430D8997BE00D86857 /* segwii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segwii.h; sourceTree = "<group>"; };
+		55F037440D8997BE00D86857 /* segwii.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = segwii.mk; sourceTree = "<group>"; };
+		55F037450D8997BE00D86857 /* support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = support.c; sourceTree = "<group>"; };
+		55F037460D8997BE00D86857 /* support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = support.h; sourceTree = "<group>"; };
+		55F037470D8997BE00D86857 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
+		55F037480D8997BE00D86857 /* time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		55F037490D8997BE00D86857 /* timers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timers.c; sourceTree = "<group>"; };
+		55F0374A0D8997BE00D86857 /* timers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timers.h; sourceTree = "<group>"; };
+		55F0374B0D8997BE00D86857 /* uart.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uart.c; sourceTree = "<group>"; };
+		55F0374C0D8997BE00D86857 /* uart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uart.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Segwii */ = {
+			isa = PBXGroup;
+			children = (
+				55F0372D0D8997BE00D86857 /* adc.c */,
+				55F0372E0D8997BE00D86857 /* adc.h */,
+				55F0372F0D8997BE00D86857 /* balance.c */,
+				55F037300D8997BE00D86857 /* balance.h */,
+				55F037310D8997BE00D86857 /* bluetooth.c */,
+				55F037320D8997BE00D86857 /* bluetooth.h */,
+				55F037330D8997BE00D86857 /* common.mk */,
+				55DB94B70D8DFBDF00E2022D /* debug.c */,
+				55DB94B80D8E06E700E2022D /* debug.h */,
+				55F037340D8997BE00D86857 /* gyro.c */,
+				55F037350D8997BE00D86857 /* gyro.h */,
+				55F037360D8997BE00D86857 /* i2c.c */,
+				55F037370D8997BE00D86857 /* i2c.h */,
+				55F037380D8997BE00D86857 /* io.c */,
+				55F037390D8997BE00D86857 /* io.h */,
+				55F0373A0D8997BE00D86857 /* ioports.h */,
+				55F0373B0D8997BE00D86857 /* isr.c */,
+				55F0373C0D8997BE00D86857 /* isr.h */,
+				55F0373D0D8997BE00D86857 /* main.c */,
+				55F0373E0D8997BE00D86857 /* makefile */,
+				55F0373F0D8997BE00D86857 /* motors.c */,
+				55F037400D8997BE00D86857 /* motors.h */,
+				55F037410D8997BE00D86857 /* nunchuk.c */,
+				55F037420D8997BE00D86857 /* nunchuk.h */,
+				55F037430D8997BE00D86857 /* segwii.h */,
+				55F037440D8997BE00D86857 /* segwii.mk */,
+				55F037450D8997BE00D86857 /* support.c */,
+				55F037460D8997BE00D86857 /* support.h */,
+				55F037470D8997BE00D86857 /* time.c */,
+				55F037480D8997BE00D86857 /* time.h */,
+				55F037490D8997BE00D86857 /* timers.c */,
+				55F0374A0D8997BE00D86857 /* timers.h */,
+				55F0374B0D8997BE00D86857 /* uart.c */,
+				55F0374C0D8997BE00D86857 /* uart.h */,
+			);
+			name = Segwii;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		55F037540D89984600D86857 /* make */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 55F037580D89986400D86857 /* Build configuration list for PBXLegacyTarget "make" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = make;
+			passBuildSettingsInEnvironment = 1;
+			productName = make;
+		};
+		55F037740D899A9500D86857 /* program */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 55F0377C0D899AF700D86857 /* Build configuration list for PBXLegacyTarget "program" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = program;
+			passBuildSettingsInEnvironment = 1;
+			productName = program;
+		};
+		55F037770D899A9C00D86857 /* clean */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 55F0377D0D899AF700D86857 /* Build configuration list for PBXLegacyTarget "clean" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = clean;
+			passBuildSettingsInEnvironment = 1;
+			productName = clean;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB919308733D9F0010E9CD /* Build configuration list for PBXProject "Segwii" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Segwii */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F037540D89984600D86857 /* make */,
+				55F037740D899A9500D86857 /* program */,
+				55F037770D899A9C00D86857 /* clean */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB919408733D9F0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB919508733D9F0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		55F037550D89984600D86857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = make;
+			};
+			name = Debug;
+		};
+		55F037560D89984600D86857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PATH = "/usr/local/AVRMacPack/bin:$PATH";
+				PRODUCT_NAME = segwii;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		55F037750D899A9500D86857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = program;
+			};
+			name = Debug;
+		};
+		55F037760D899A9500D86857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PATH = "/usr/local/bin:$PATH";
+				PRODUCT_NAME = program;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		55F037780D899A9C00D86857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = clean;
+			};
+			name = Debug;
+		};
+		55F037790D899A9C00D86857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PATH = "/usr/local/bin:$PATH";
+				PRODUCT_NAME = clean;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB919308733D9F0010E9CD /* Build configuration list for PBXProject "Segwii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB919408733D9F0010E9CD /* Debug */,
+				1DEB919508733D9F0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F037580D89986400D86857 /* Build configuration list for PBXLegacyTarget "make" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F037550D89984600D86857 /* Debug */,
+				55F037560D89984600D86857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F0377C0D899AF700D86857 /* Build configuration list for PBXLegacyTarget "program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F037750D899A9500D86857 /* Debug */,
+				55F037760D899A9500D86857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F0377D0D899AF700D86857 /* Build configuration list for PBXLegacyTarget "clean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F037780D899A9C00D86857 /* Debug */,
+				55F037790D899A9C00D86857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
